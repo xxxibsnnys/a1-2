@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(204, 160, 201);
+}
+
+.register-button{
+    color: rgba(179, 255, 0, 0.616);
+}
+
+.first-container {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+    border: 2px solid rgba(75, 75, 240, 0.829);
+    background-color: rgba(231, 220, 220, 0.76);
+}
+.second-container {
+    background-color: rgba(231, 220, 220, 0.76);
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+
+.second-container a button{
+    border: 1px solid yellow;
+    border-radius: 15px;
+}
+.second-web-container{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+    border: 2px solid rgba(75, 75, 240, 0.829);
+    background-color: rgba(231, 220, 220, 0.76);
+}
+.second-left{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+    padding: 15px;
+    gap: 10px;
+}
+.left-input-format > *{
+
+    margin: 0 auto;
+    width: 75%;
+}
+h1{
+    text-align: center;
+}
+#regis{
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+}
+button{
+    cursor: pointer;
+}

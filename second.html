@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> ลงทะเบียน </title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <h1> ลงทะเบียนผู้สนใจเช่าพื้นที่แสดงสินค้า</h1>
+    <div class="second-web-container">
+        <div class="second-left">
+        <input type="text" id="companyName" name="companyName" placeholder="ชื่อบริษัท">
+        <select id="boothSize" name="boothSize">
+            <option value="0">--choose size--</option>
+            <option value="100">10x10 ฟุต</option>
+            <option value="150">10x15 ฟุต</option>
+        </select>
+        <div><input type="checkbox" id="needTable" name="needTable" checked> ต้องการโต๊ะตั้งในบูธ</div>
+            <input type="number" id="chair" name="chair" placeholder="จำนวนเก้าอี้">
+            <input type="text" id="name" name="name" placeholder="ชื่อผู้ติดต่อ">
+            <input type="text" id="contract" name="contract" placeholder="เบอร์ผู้ติดต่อ">
+            <button type="button" onclick="apply();">ส่งฟอร์ม</button>
+        </div>
+        <div class="second-left left-input-format">
+            <img class="imgregis" src="img/seoul2.jpg">
+        </div>
+    </div>   
+</body>
+
+</html>
